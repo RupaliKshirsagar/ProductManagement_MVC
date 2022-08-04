@@ -53,8 +53,8 @@ public class Product {
 	}
 
 
-	public void setProductPrice(float productPrice) {
-		this.productPrice = productPrice;
+	public void setProductPrice(float string) {
+		this.productPrice = string;
 	}
 
 
@@ -63,10 +63,12 @@ public class Product {
 	}
 
 
-	public void setProductExpiryDate(Date productExpiryDate) {
-		this.productExpiryDate = productExpiryDate;
+	public void setProductExpiryDate(Date string) {
+		this.productExpiryDate = string;
 	}
-	
+
+
+
 	
 	
 	

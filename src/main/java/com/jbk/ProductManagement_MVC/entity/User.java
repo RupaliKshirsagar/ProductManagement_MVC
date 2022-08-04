@@ -14,7 +14,8 @@ public class User {
 	private String question;
 	private String answer;
 	private String email;
-	public User(String username, String password, String gender, String role, String question, String answer,String email) {
+	private String isActive;
+	public User(String username, String password, String gender, String role, String question, String answer,String email,String isActive) {
 		super();
 		this.username = username;
 		this.password = password;
@@ -22,7 +23,8 @@ public class User {
 		this.role = role;
 		this.question = question;
 		this.answer = answer;
-		this.email=email;
+		
+		this.isActive=isActive;
 	}
 	public User() {
 		super();
@@ -31,12 +33,8 @@ public class User {
 	public String getUsername() {
 		return username;
 	}
-	public String getEmail() {
-		return email;
-	}
-	public void setEmail(String email) {
-		this.email = email;
-	}
+	
+	
 	public void setUsername(String username) {
 		this.username = username;
 	}
@@ -73,7 +71,13 @@ public class User {
 	@Override
 	public String toString() {
 		return "User [username=" + username + ", password=" + password + ", gender=" + gender + ", role=" + role
-				+ ", question=" + question + ", answer=" + answer + ",email=" + email + "]";
+				+ ", question=" + question + ", answer=" + answer + ",isActive=" + isActive + "]";
+	}
+	public String getIsActive() {
+		return isActive;
+	}
+	public void setIsActive(String isActive) {
+		this.isActive = isActive;
 	}
 	
 }

@@ -37,9 +37,9 @@
                                         <!-- <div class="form-group">
                                             <input type="text" class="form-control" placeholder="Product Id *" value="" />
                                         </div> -->
-                                        <div class="form-group">
+                                       <!--  <div class="form-group">
                                             <input type="text" class="form-control" placeholder="Product Id *" value="" name="procudtId" />
-                                        </div>
+                                        </div> -->
                                         <div class="form-group">
                                             <input type="text" class="form-control" placeholder="Product Name *" value="" name="productName"/>
                                         </div>

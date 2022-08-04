@@ -33,7 +33,7 @@
 				</div>
 			</div>
 			<div class="card-body">
-				<form action="login">
+				<form action="login" method="post">
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
@@ -56,7 +56,7 @@
 			<div class="card-footer">
 				
 				<div class="d-flex justify-content-center">
-					<a href="#">Forgot your password?</a>
+					<a href="forgotPasswordPage">Forgot your password?</a>
 				</div>
 			</div>
 		</div>
